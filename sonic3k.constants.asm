@@ -735,9 +735,10 @@ Current_act			ds.b 1
 Life_count			ds.b 1
 			ds.b 3				; unused
 Current_special_stage		ds.b 1
-			ds.b 1				; unused
+;			ds.b 1				; unused
 Continue_count			ds.b 1
 Super_Sonic_Knux_flag		ds.b 1
+Returning_From_Super_flag	ds.b 1
 Time_over_flag			ds.b 1
 Extra_life_flags		ds.b 1
 Update_HUD_life_count		ds.b 1

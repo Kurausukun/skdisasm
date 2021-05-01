@@ -13,7 +13,7 @@
 ; ===========================================================================
 
 ; Set this to 1 to fix some bugs in the driver.
-fix_sndbugs				=  0
+fix_sndbugs				=  1
 
 ; Function to make a little endian (z80) pointer
 k68z80Pointer function addr,((((addr&$7FFF)+$8000)<<8)&$FF00)+(((addr&$7FFF)+$8000)>>8)
